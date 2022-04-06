@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #313131;
+}
+.wrapper #canva
+{
+    box-shadow: -3px 3px 20px 10px #000;
+    margin-top: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+    /*background-color: #fff;*/
+}
+.wrapper .tools
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+.wrapper .tools button
+{
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    outline: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+}
+.wrapper .tools input.color
+{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
